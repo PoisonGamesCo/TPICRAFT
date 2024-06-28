@@ -68,6 +68,492 @@
 			x: -8.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["740935684344A09E"]
+			id: "4B403862EF1F9933"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "773A6FF864F18AEF"
+				table_id: 606339638127188054L
+				type: "loot"
+			}]
+			subtitle: "Well I See you Found Monsters! Probably good to get some other tools too"
+			tasks: [{
+				id: "63B6324D66E4C5D2"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Monsters!!!"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B403862EF1F9933"]
+			id: "689AD483B3294F34"
+			rewards: [{
+				count: 12
+				id: "2118CB1F631DC886"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "This Should Help With The Wood"
+			tasks: [{
+				id: "12592A16ECD976F5"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chop Chop!"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["689AD483B3294F34"]
+			id: "366F94C7836DB353"
+			subtitle: "Start Your Farm! Your gonna Need It! food can be hard to get early game"
+			tasks: [
+				{
+					id: "5A8EA0F1AD5B5067"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6FD9D69A18AEC5DF"
+					item: { Count: 4, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			title: "The Life Of a Farmer"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E1733D0E3FE20F9"]
+			id: "4E0B63953C42CA86"
+			rewards: [{
+				id: "1CBBD571070CA1AD"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Get Ready! You're Getting Closer"
+			tasks: [{
+				count: 16L
+				id: "613BF6975F8D34E0"
+				item: { Count: 16, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Iron Age"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E0B63953C42CA86"]
+			id: "144B2D45010D69AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03A64E2DFBC840D2"
+				table_id: 2125894425972668129L
+				type: "random"
+			}]
+			subtitle: "Time For an Upgrade"
+			tasks: [{
+				id: "01809AECDD0F88E1"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Weaponary Upgrade"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["144B2D45010D69AE"]
+			id: "08CF6109C0789A06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52278B1259E0D6D9"
+				table_id: 2125894425972668129L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0562737CE7A35596"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chop Chop DoubleTime!"
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08CF6109C0789A06"]
+			id: "4E5F76CF871D8D81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A0FA5C08971BEB7"
+				table_id: 2125894425972668129L
+				type: "random"
+			}]
+			subtitle: "Why Exactly Do You Need This?"
+			tasks: [{
+				id: "1F1FDC9B0EE2D81D"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better Farmer Better Hoes"
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E5F76CF871D8D81"]
+			id: "2001173FBA259E7D"
+			rewards: [{
+				count: 42
+				id: "24DA3AF95886E44F"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Wait Shouldnt You Have Made This First? Oh Well "
+			tasks: [{
+				id: "5CDBDCE480A98184"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining Time"
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4E0B63953C42CA86"]
+			id: "3218B22ABB236851"
+			rewards: [{
+				id: "73194C2A83DC531C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 16L
+				id: "3B1D521B36C22C1C"
+				item: { Count: 16, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			title: "Golden Age"
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3218B22ABB236851"]
+			description: ["Pro Tip! Turn Ingots into Blocks To Save Storage"]
+			id: "41F46D1FAE0E1DD7"
+			rewards: [{
+				id: "14FC7F9AE4A4462C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Dont Make Golden Tools silly."
+			tasks: [{
+				id: "0C78F8C005276687"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "Blocks!"
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3218B22ABB236851"]
+			id: "26FAD2EA346EEC85"
+			rewards: [{
+				id: "0146B7C901F5E6D2"
+				item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "You're Probably Lacking Storage by Now"
+			tasks: [{
+				id: "592B53578E8794A7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Ooo Shinyyy"
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26FAD2EA346EEC85"]
+			id: "0942AB412140FE7F"
+			rewards: [{
+				id: "4CC5F8C392D1ECE9"
+				item: {
+					Count: 1
+					id: "aether:diamond_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "57160572561B9AFD"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62AEE2425A0305CE"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66E2EBEEBDD0AF2E"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23B7FD107E93AC09"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Defense"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26FAD2EA346EEC85"]
+			id: "14718C5A2DCAA305"
+			rewards: [{
+				id: "590BE4BB52CE152A"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Your tools Should Always Be as Strong as Possible"
+			tasks: [
+				{
+					id: "3B53FE905C76F938"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C3C3F0F273B9BF6"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "529F6EE0CCBCFDAE"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6124D5D2B0DB4AA3"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamondary Upgrades"
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["26FAD2EA346EEC85"]
+			id: "0DF3127EE3A32F5D"
+			rewards: [{
+				count: 2
+				id: "68DDDBF639EE4A56"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "You've Gotten Netherite! Well you know minecraft. Keep On Getting Resources Through Every Chapter!"
+			tasks: [{
+				id: "5D1E0E7922444C6B"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Minecraft Basics"
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B403862EF1F9933"]
+			id: "628F31691101BEC3"
+			rewards: [{
+				count: 3
+				id: "770AE6F5FD7E241B"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "Easy Storage Always With You! 16 Colors and 5 Different Levels"
+			tasks: [{
+				id: "6B4A12A8E6778875"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Portable Storage"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["628F31691101BEC3"]
+			id: "7FBE93729F36D5D1"
+			rewards: [{
+				count: 3
+				id: "61DB295FC2CCC4AE"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D520DD0BC6A8F02"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "Copper Tier"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FBE93729F36D5D1"]
+			id: "382FA9014F2F9796"
+			rewards: [{
+				id: "635008CA6E63C61A"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "742B000DC277F5F4"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Iron Tier"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["382FA9014F2F9796"]
+			id: "5236FB048783E81F"
+			rewards: [{
+				id: "1D9A8F57B0334839"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60761A3F5E0AEB31"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Gold Tier"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "027F1B0727F1A1A7"
+			tasks: [{
+				id: "65759AD5E750A435"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Diamond Tier"
+			x: -4.5d
+			y: 6.5d
+		}
 	]
 	subtitle: ["Chapter 1"]
 	title: "The Beginning "

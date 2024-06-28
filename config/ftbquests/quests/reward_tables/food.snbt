@@ -1,0 +1,15 @@
+{
+	id: "1D80B1B78A1576E1"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:cake" }
+		{ item: "divinerpg:fruit_cake" }
+		{ item: "createaddition:chocolate_cake" }
+		{ item: "createaddition:honey_cake" }
+		{ item: "minecraft:bread" }
+		{ item: "pneumaticcraft:sourdough_bread" }
+		{ item: "aether:gingerbread_man" }
+	]
+	title: "food"
+}
