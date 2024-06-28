@@ -1,0 +1,11 @@
+crash-reports/
+saves/
+schematics/
+minecraftinstance.json
+usercache.json
+usernamecache.json
+patchouli_data.json
+.curseclient
+logs/
+blueprints/
+att-debug/
