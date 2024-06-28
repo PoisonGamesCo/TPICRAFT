@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch3_technically_introduction"
+	group: "330EA361AAB83628"
+	icon: "gtceu:gregification_hazard_sign_block"
+	id: "45848EB86E74DCFB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "CH3: Technically Introduction"
+}

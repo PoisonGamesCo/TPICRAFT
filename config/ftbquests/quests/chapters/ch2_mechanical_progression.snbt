@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch2_mechanical_progression"
+	group: "330EA361AAB83628"
+	icon: "create:goggles"
+	id: "37AD14387CE40000"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6B7D5B47B6D5B45F"]
+			id: "4A2084A0A9A0C994"
+			rewards: [{
+				count: 4
+				id: "6C5FA7C882047353"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			subtitle: "Time To Get Started! Create is a good place to start lets get some power going"
+			tasks: [{
+				id: "28CA5313BF025A51"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Creation Basics"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A2084A0A9A0C994"]
+			hide_dependency_lines: false
+			id: "7F783D2F9EA46A59"
+			tasks: [{
+				id: "72F8A6A512AD771D"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A2084A0A9A0C994"]
+			id: "31284C694D140728"
+			subtitle: "Zinc! Another Required Resource"
+			tasks: [{
+				id: "4DA7A18A7DAEE55B"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	title: "CH2: Mechanical Progression"
+}

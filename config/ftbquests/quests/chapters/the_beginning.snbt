@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "the_beginning"
-	group: ""
+	group: "330EA361AAB83628"
 	icon: "minecraft:oak_log"
 	id: "48731F74E198EAE3"
 	order_index: 0
@@ -544,6 +544,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["5236FB048783E81F"]
 			id: "027F1B0727F1A1A7"
 			tasks: [{
 				id: "65759AD5E750A435"
@@ -554,7 +555,46 @@
 			x: -4.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["628F31691101BEC3"]
+			id: "21E16B236F85E249"
+			rewards: [{
+				id: "094268657B7426F1"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			subtitle: "Drawers Can Hold 1 Item in large quantities and have upgrades too!"
+			tasks: [{
+				id: "0B00657B3A1809A2"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0DF3127EE3A32F5D"
+				"14718C5A2DCAA305"
+				"027F1B0727F1A1A7"
+			]
+			hide_dependency_lines: true
+			id: "6B7D5B47B6D5B45F"
+			rewards: [{
+				id: "4839C30B6497113A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Good Luck!"
+			tasks: [{
+				id: "2020FD5617FA85E3"
+				title: "Chapter 2"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
 	]
 	subtitle: ["Chapter 1"]
-	title: "The Beginning "
+	title: "CH1: The Beginning "
 }

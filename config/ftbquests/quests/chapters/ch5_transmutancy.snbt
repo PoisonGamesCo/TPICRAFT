@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch5_transmutancy"
+	group: "330EA361AAB83628"
+	icon: "projecte:transmutation_tablet"
+	id: "59D74107E9F1D38C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "CH5: Transmutancy"
+}

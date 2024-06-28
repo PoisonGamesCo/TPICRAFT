@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generation"
+	group: "353DBF38A6F629C9"
+	icon: "mekanismgenerators:solar_panel"
+	id: "09E36A2926FCFA04"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Power Generation"
+}
