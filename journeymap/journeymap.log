@@ -49,3 +49,26 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.10.0, v
 [20:25:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/cave_crawler.png
 [20:28:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/drygmy_brown.png
 [20:28:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/crab.png
+[20:38:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/frost.png
+[20:41:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/alchemist.png
+[20:41:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for minecraft:textures/entity_icon/villager/hunter.png
+[20:41:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/glacon.png
+[20:42:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/aequorea_blue.png
+[20:42:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/miner.png
+[21:09:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for productivebees:textures/entity_icon/bee/digger/bee.png
+[21:13:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/kobblin.png
+[21:13:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/ender_spider.png
+[21:14:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for ars_nouveau:textures/entity_icon/whirlisprig_summer.png
+[21:14:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for divinerpg:textures/entity_icon/miner.png
+[21:15:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for productivebees:textures/entity_icon/bee/digger/bee.png
+[21:26:45] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\kaide\curseforge\minecraft\Instances\TPICRAFT\journeymap\data\sp\New World\minecraft:overworld
+[21:26:47] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:26:47] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:26:47] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\kaide\curseforge\minecraft\Instances\TPICRAFT\journeymap\data\sp\New World\waypoints
+[21:26:48] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\kaide\curseforge\minecraft\Instances\TPICRAFT\journeymap\data\sp\New World\good_nights_sleep~dream. Memory: 11952MB total, 3359MB free 
+[21:27:00] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\kaide\curseforge\minecraft\Instances\TPICRAFT\journeymap\data\sp\New World\good_nights_sleep:dream
+[21:27:01] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:27:01] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:27:01] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\kaide\curseforge\minecraft\Instances\TPICRAFT\journeymap\data\sp\New World\waypoints
+[21:27:01] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\kaide\curseforge\minecraft\Instances\TPICRAFT\journeymap\data\sp\New World\overworld. Memory: 11952MB total, 2187MB free 
+[21:27:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for good_nights_sleep:textures/entity_icon/unicorn/unicorn_blue.png

@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "the_beginning"
@@ -8,6 +7,68 @@
 	id: "48731F74E198EAE3"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "The Beginning"
+	quests: [
+		{
+			id: "215E34A1F0EE81D9"
+			rewards: [{
+				count: 16
+				id: "769B3DF184651248"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CDAF6100B9D24F5"
+				title: "A New World"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["215E34A1F0EE81D9"]
+			id: "740935684344A09E"
+			rewards: [{
+				id: "620EC583FE992F6B"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You Should Start The Other Half Then. Mining!"
+			tasks: [{
+				id: "753846A654F59085"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting Already?"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["740935684344A09E"]
+			id: "4E1733D0E3FE20F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7724725B32440E49"
+				table_id: 606339638127188054L
+				type: "random"
+			}]
+			subtitle: "Thats Alota Cobble! Try Sophisticated Chests"
+			tasks: [{
+				count: 64L
+				id: "3A536B1E5CA82A34"
+				item: { Count: 64, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "Its Cobbling Time"
+			x: -8.5d
+			y: 2.5d
+		}
+	]
+	subtitle: ["Chapter 1"]
+	title: "The Beginning "
 }
