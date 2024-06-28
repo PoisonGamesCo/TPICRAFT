@@ -9,3 +9,6 @@ patchouli_data.json
 logs/
 blueprints/
 att-debug/
+backups/
+journeymap/
+local/

@@ -79,6 +79,7 @@
 #AB42CF gtceu:lapis_indicator
 #83CED3 minecraft:lava
 #C6229E alltheores:lead_ore
+#746434 create:limestone
 #EA63C2 lootr:lootr_chest
 #562281 create_new_age:magnetite_block
 #846DFA gtceu:magnetite_indicator
@@ -105,6 +106,7 @@
 #2D6ABE pneumaticcraft:oil
 #6B66FC gtceu:oil_medium
 #A396A7 gtceu:oilsands_indicator
+#4775FA gtceu:oilsands_ore
 #DCB160 gtceu:olivine_indicator
 #DAED69 minecraft:orange_concrete
 #4A3089 minecraft:orange_terracotta
@@ -113,6 +115,7 @@
 #F6678E minecraft:oxeye_daisy
 #B75237 minecraft:packed_ice
 #AB1C58 minecraft:peony
+#399EFD quark:permafrost
 #B32B19 domum_ornamentum:plain
 #AFAC0D minecraft:poppy
 #CB1F3C minecraft:powder_snow
@@ -159,7 +162,9 @@
 #88779D minecraft:vine
 #B5D07E minecraft:white_stained_glass
 #8853D5 elementalcraft:whiterock
+#100F92 elementalcraft:whiterock_slab
 #F96D62 elementalcraft:whiterock_stairs
+#11B922 elementalcraft:whiterock_wall
 #6F7543 ars_elemental:yellow_archwood_leaves
 #D9C16D quark:yellow_blossom_leaves
 #077CD3 gtceu:yellow_limonite_ore
