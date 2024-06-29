@@ -7,6 +7,17 @@
 	id: "09E36A2926FCFA04"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "58069862661D3AC5"
+		subtitle: "Welcome To POWERRR We Will Show You The Best Power Generation Options "
+		tasks: [{
+			id: "361BF5AD9ACEA2F6"
+			title: "Welcome To Power Generation. We Will Show You The Best Ways To Generate Power"
+			type: "checkmark"
+		}]
+		title: "PowerGalor"
+		x: 0.0d
+		y: -1.0d
+	}]
 	title: "Power Generation"
 }

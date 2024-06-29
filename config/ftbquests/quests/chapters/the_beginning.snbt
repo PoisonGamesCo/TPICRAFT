@@ -121,6 +121,12 @@
 		{
 			dependencies: ["689AD483B3294F34"]
 			id: "366F94C7836DB353"
+			rewards: [{
+				count: 3
+				id: "7C91CF88A34E0246"
+				item: "aether:gingerbread_man"
+				type: "item"
+			}]
 			subtitle: "Start Your Farm! Your gonna Need It! food can be hard to get early game"
 			tasks: [
 				{
@@ -593,6 +599,30 @@
 			}]
 			x: -7.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["21E16B236F85E249"]
+			id: "5AD81895E23A6EA3"
+			rewards: [{
+				id: "77832094F4F84572"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "Chests are Just like Backpacks! Upgrade Them All"
+			tasks: [{
+				id: "34ACB8676D771AEF"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Chest Tiers Too!"
+			x: -2.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Chapter 1"]
