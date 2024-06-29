@@ -165,7 +165,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Get Ready! You're Getting Closer"
+			subtitle: "GregTech Has Ores Too! Alot Of These Ores Can Be Smelted to Iron or Other Main Ores"
 			tasks: [{
 				count: 16L
 				id: "613BF6975F8D34E0"
@@ -571,10 +571,17 @@
 			}]
 			subtitle: "Drawers Can Hold 1 Item in large quantities and have upgrades too!"
 			tasks: [{
-				id: "0B00657B3A1809A2"
-				item: "storagedrawers:oak_full_drawers_1"
+				id: "3FAC7F58AE34A4B5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
 				type: "item"
 			}]
+			title: "Drawers!"
 			x: -3.5d
 			y: 2.5d
 		}
@@ -608,14 +615,14 @@
 				item: "sophisticatedstorage:upgrade_base"
 				type: "item"
 			}]
-			subtitle: "Chests are Just like Backpacks! Upgrade Them All"
+			subtitle: "Chests and Barrels are Just like Backpacks! Upgrade Them All"
 			tasks: [{
 				id: "34ACB8676D771AEF"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:chest"
+					id: "itemfilters:tag"
 					tag: {
-						woodType: "oak"
+						value: "sophisticatedstorage:base_tier_wooden_storage"
 					}
 				}
 				type: "item"
