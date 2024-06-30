@@ -27,7 +27,7 @@ recipes:
 
   # Recipes for Buckets, Cauldrons, Hoppers, and Iron Bars require Iron Plates, Rods, and more.
   # Default: true
-  hardIronRecipes: true
+  hardIronRecipes: false
 
   # Whether to make Redstone related recipes harder.
   # Default: false
@@ -43,7 +43,7 @@ recipes:
   hardMiscRecipes: false
 
   # Whether to make Glass related recipes harder. Default: true
-  hardGlassRecipes: true
+  hardGlassRecipes: false
 
   # Whether to nerf the Paper crafting recipe.
   # Default: true
@@ -153,7 +153,7 @@ machines:
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
-  doTerrainExplosion: false
+  doTerrainExplosion: true
 
   # Energy use multiplier for electric items.
   # Default: 100
@@ -383,7 +383,7 @@ gameplay:
   # Whether the GTCEu's ingame guidebook, 'Compass', be enabled.
   # WARNING: INCOMPLETE
   # Default: false
-  enableCompass: false
+  enableCompass: true
 
 # Config options for Mod Compatibility
 compat:
@@ -392,7 +392,7 @@ compat:
     # Enable Native GTEU to Platform native Energy (RF and alike) on GT Cables and Wires.
     # This does not enable nor disable Converters.
     # Default: true
-    nativeEUToPlatformNative: true
+    nativeEUToPlatformNative: false
 
     # Enable GTEU to Platform native (and vice versa) Converters.
     # Default: false
