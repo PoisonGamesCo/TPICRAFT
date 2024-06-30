@@ -31,6 +31,7 @@
 			dependencies: ["4A2084A0A9A0C994"]
 			hide_dependency_lines: false
 			id: "7F783D2F9EA46A59"
+			subtitle: "Welcome To The WaterWheel your first source of Torque"
 			tasks: [{
 				id: "72F8A6A512AD771D"
 				item: "create:water_wheel"
@@ -50,6 +51,108 @@
 			}]
 			x: 1.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["4A2084A0A9A0C994"]
+			id: "6B4DC616E8CDEA82"
+			rewards: [{
+				count: 16
+				id: "6CA7B99ACB9978C8"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "The Most Important Block In Create! Gonna need some variation of these to connect EVERYTHINGGGG"
+			tasks: [{
+				id: "72ECE9B693A3483B"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "The Shaft"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B4DC616E8CDEA82"]
+			id: "7D33B519CF37E5DF"
+			rewards: [{
+				count: 6
+				id: "154BC4323C990901"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			subtitle: "The Cogwheel Allows you to transfer Torque to machines with cogs in them and allows easier Directions"
+			tasks: [{
+				id: "2FD3C2281408C9E0"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Shaft+"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D33B519CF37E5DF"]
+			id: "6AFA144094B38034"
+			subtitle: "The Bigger Cog Variation. Not Very Useful and slows down your torque"
+			tasks: [{
+				id: "0253E72A14CB12C0"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "Shaft++"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F783D2F9EA46A59"]
+			id: "101568A82E15FF99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E045D619F11591F"
+				table_id: 7171817281730224785L
+				type: "loot"
+			}]
+			subtitle: "The Depot! you may need a few of these in the future but lets start with 1"
+			tasks: [{
+				id: "667BC47153DCB58A"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Home Depot"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D33B519CF37E5DF"]
+			id: "54ECEEE1C0AB82A6"
+			subtitle: "The Gearbox is 4 way transport for your Torque"
+			tasks: [{
+				id: "7C26409CD3779808"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "Multi-Torque Transport"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["101568A82E15FF99"]
+			id: "7030EA03097F0B2A"
+			rewards: [{
+				count: 6
+				id: "21D3290BF0CAF91C"
+				item: "alltheores:zinc_plate"
+				type: "item"
+			}]
+			subtitle: "The Mechanical Press Allows you to make sheets and more"
+			tasks: [{
+				id: "2E40810FC8DEB4BF"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Hydrolic Power"
+			x: -2.5d
+			y: -0.5d
 		}
 	]
 	title: "CH2: Mechanical Progression"
