@@ -154,6 +154,83 @@
 			x: -2.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["7030EA03097F0B2A"]
+			id: "6F4064CD8AB906BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B15B7D9C4F79CED"
+				table_id: 7171817281730224785L
+				type: "loot"
+			}]
+			subtitle: "The Mechanical Saw! get Ready for some easy chopping"
+			tasks: [{
+				id: "219936C6297DAF61"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "SawSaw"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31284C694D140728"]
+			id: "278AB5A52D3BA7C2"
+			rewards: [{
+				count: 4
+				id: "1BD655D2F2066831"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Time For Brass! Steam Engines and more are ahead"
+			tasks: [{
+				id: "1DEADD052FBCC85D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass Age"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6F4064CD8AB906BF"]
+			id: "23BAE31882F1A653"
+			subtitle: "This is the minimum youre gonna need for a windmill setup but they can get much more advanced "
+			tasks: [
+				{
+					id: "5AC59B925BFFDFC3"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4DCC179B0953FFFC"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Time For Some Wind"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "252CA42F3D86AD51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75D22406C5797595"
+				table_id: 7171817281730224785L
+				type: "loot"
+			}]
+			subtitle: "Apply Now!"
+			tasks: [{
+				id: "6B5051678D9274A4"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			title: "Jazz Hands"
+			x: 2.0d
+			y: -2.5d
+		}
 	]
 	title: "CH2: Mechanical Progression"
 }
