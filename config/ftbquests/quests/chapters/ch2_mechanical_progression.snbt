@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6B7D5B47B6D5B45F"]
+			dependencies: ["7F2B86F8443E6D8D"]
 			id: "4A2084A0A9A0C994"
 			rewards: [{
 				count: 4
@@ -178,14 +178,14 @@
 			id: "278AB5A52D3BA7C2"
 			rewards: [{
 				count: 4
-				id: "1BD655D2F2066831"
-				item: "create:brass_ingot"
+				id: "7418D3CFC892B4C7"
+				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
 			subtitle: "Time For Brass! Steam Engines and more are ahead"
 			tasks: [{
-				id: "1DEADD052FBCC85D"
-				item: "create:brass_ingot"
+				id: "3CB9B24AD15182D8"
+				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
 			title: "Brass Age"
@@ -214,6 +214,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["278AB5A52D3BA7C2"]
 			id: "252CA42F3D86AD51"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -230,6 +231,148 @@
 			title: "Jazz Hands"
 			x: 2.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["252CA42F3D86AD51"]
+			id: "5412671C7A4DEFD7"
+			rewards: [{
+				id: "4031E9D0CA55CB66"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21AA053836EF7277"
+				item: "createsifter:brass_sifter"
+				type: "item"
+			}]
+			title: "Advanced Sifting"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B7D5B47B6D5B45F"]
+			id: "7F2B86F8443E6D8D"
+			rewards: [
+				{
+					id: "1F0E832EE5E6C664"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "5657BFE1F43E1B95"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			subtitle: "Time For Create"
+			tasks: [{
+				id: "2C5E469850F08259"
+				title: "Chapter 2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5412671C7A4DEFD7"]
+			id: "201B84C78DBE83B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A1AC625B89D0CC"
+				table_id: 7171817281730224785L
+				type: "loot"
+			}]
+			subtitle: "You Can Upgrade this one Too"
+			tasks: [{
+				id: "06A1433C6DCE26E6"
+				item: {
+					Count: 1
+					id: "createsifter:brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7030EA03097F0B2A"]
+			id: "0C90D01B4FDC5F02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3890A533C114F38C"
+				table_id: 7171817281730224785L
+				type: "loot"
+			}]
+			subtitle: "The Easiest Way to Get Resources You Need a mesh too"
+			tasks: [{
+				id: "72A8ED53F41AE663"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			title: "Sifting Basics"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C90D01B4FDC5F02"]
+			id: "5408023390B1E262"
+			rewards: [{
+				id: "5CAC3151CDE57241"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7945B8285F82D8B9"
+				item: {
+					Count: 1
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5408023390B1E262"]
+			id: "145EF07F9AE3A16E"
+			rewards: [{
+				id: "160F7D18475FE673"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "117523D15D064466"
+				item: {
+					Count: 1
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["145EF07F9AE3A16E"]
+			id: "18EB0FB6E9CB8D22"
+			rewards: [{
+				id: "07B5700C7463247C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "29011409AB214272"
+				item: {
+					Count: 1
+					id: "createsifter:zinc_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
 		}
 	]
 	title: "CH2: Mechanical Progression"
