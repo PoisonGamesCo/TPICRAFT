@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch6mystical_resources"
+	group: "330EA361AAB83628"
+	icon: "mysticalagriculture:inferium_seeds"
+	id: "7C826B2572642DE9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "CH6: Mystical Resources"
+}
