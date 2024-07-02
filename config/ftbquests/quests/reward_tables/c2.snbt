@@ -1,0 +1,12 @@
+{
+	id: "638769D1DF89A291"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 16, item: "create:shaft" }
+		{ count: 8, item: "create:cogwheel" }
+		{ count: 4, item: "create:andesite_alloy" }
+		{ count: 16, item: "create:zinc_ingot" }
+	]
+	title: "C2"
+}

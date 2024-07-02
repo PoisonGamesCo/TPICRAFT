@@ -134,14 +134,14 @@
 	Stools = true
 	"Sturdy Stone" = true
 	Thatch = true
-	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Furnaces" = true
+	"Variant Bookshelves" = false
+	"Variant Chests" = false
+	"Variant Furnaces" = false
 	"Variant Ladders" = true
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -760,7 +760,7 @@
 
 [world]
 	"Ancient Wood" = true
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 	"Big Stone Clusters" = true
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
@@ -1342,8 +1342,8 @@
 	Forgotten = true
 	Foxhound = true
 	Shiba = true
-	Stonelings = true
-	Toretoise = true
+	Stonelings = false
+	Toretoise = false
 	Wraith = true
 
 	[mobs.crabs]
