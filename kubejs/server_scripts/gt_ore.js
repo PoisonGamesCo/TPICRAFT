@@ -4,7 +4,7 @@
 
 console.info('Hello, World! (Loaded server scripts)')
 
-GTCEuServerEvents.oreVeins(event => {
+/*GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:osmium_vein", vein =>{
         vein.weight(60)
         vein.clusterSize(30)
@@ -675,4 +675,4 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
     })
-})
+})*/
