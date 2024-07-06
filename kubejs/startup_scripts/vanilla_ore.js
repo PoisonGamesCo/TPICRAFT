@@ -118,6 +118,7 @@ WorldgenEvents.remove(event => {
             'mysticalagradditions:end_prosperity_ore',
             'mysticalagradditions:end_inferium_ore',
             'elementalcraft:inert_crystal_ore',
-            'elementalcraft:deepslate_inert_crystal_ore']
+            'elementalcraft:deepslate_inert_crystal_ore',
+            'theabyss:loran_end_ore']
     })
 })

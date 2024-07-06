@@ -12,3 +12,5 @@ att-debug/
 backups/
 journeymap/
 local
+.gitignore
+options.txt
