@@ -227,7 +227,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('positite')
         .gem(2)
         .ore(1, 1) 
-        .color(0xFCFC8C).iconSet(GTMaterialIconSet.OPAL)
+        .color(0xFCFC8C).iconSet(GTMaterialIconSet.DIAMOND)
 })
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
@@ -324,5 +324,5 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('zanite')
         .gem(1)
         .ore(1, 1) 
-        .color(0x7935DD).iconSet(GTMaterialIconSet.OPAL)
+        .color(0x7935DD).iconSet(GTMaterialIconSet.DIAMOND)
 })
