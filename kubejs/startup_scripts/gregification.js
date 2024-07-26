@@ -144,14 +144,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
-    event.create('constantan')
-        .ingot() 
-        .components('1x nickel', '1x copper')
-        .color(0xECBF62)
-        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_PLATE)
-})
-
-GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('signalum')
         .ingot() 
         .components('3x copper', '1x silver', '4x redstone')

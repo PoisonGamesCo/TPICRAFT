@@ -4,7 +4,7 @@
 
 console.info('Hello, World! (Loaded client scripts)')
 
-onEvent('jei.hide.items', event => {
+JEIEvents.hideItems(event => {
     event.hide('divinerpg:arlemite_ingot')
     event.hide('divinerpg:rupee_ingot')
     event.hide('divinerpg:realmite_ingot')
@@ -33,7 +33,7 @@ onEvent('jei.hide.items', event => {
     event.hide('good_nights_sleep:raw_spectrite')
     event.hide('good_nights_sleep:spectrite_ingot')
     event.hide('good_nights_sleep:raw_spectrite_block')
-    event.hide('gtceu:raw_spectrite_block')
+    event.hide('good_nights_sleep:spectrite_block')
     event.hide('good_nights_sleep:positite')
     event.hide('good_nights_sleep:positite_block')
     event.hide('good_nights_sleep:zitrite_ingot')
@@ -70,4 +70,17 @@ onEvent('jei.hide.items', event => {
     event.hide('aether:ambrosium_block')
     event.hide('aether:zanite_gemstone')
     event.hide('aether:zanite_block')
+    event.hide('alltheores:aluminum_ingot')
+    event.hide('alltheores:aluminum_nugget')
+    event.hide('alltheores:aluminum_dust')
+    event.hide('alltheores:raw_aluminum')
+    event.hide('alltheores:aluminum_rod')
+    event.hide('alltheores:aluminum_gear')
+    event.hide('alltheores:aluminum_plate')
+    event.hide('alltheores:constantan_plate')
+    event.hide('alltheores:constantan_ingot')
+    event.hide('alltheores:constantan_dust')
+    event.hide('alltheores:constantan_nugget')
+    event.hide('alltheores:constantan_rod')
+    event.hide('alltheores:constantan_block')
 })
